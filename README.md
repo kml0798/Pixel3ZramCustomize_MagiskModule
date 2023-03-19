@@ -8,6 +8,6 @@
 /system/vendor/etc/init/hw 里可能存在一个类似init.平台代号.rc 的文件，打开查找zram字段，可能在这里可以找到zram设置文件路径，我就是这样找到的zramsize设置文件
 
 
-![image]()
-![image]()
-![image]()
+![image](https://github.com/kml0798/Pixel3ZramCustomize_MagiskModule/blob/main/ProjectImage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230319123532.jpg)
+![image](https://github.com/kml0798/Pixel3ZramCustomize_MagiskModule/blob/main/ProjectImage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230319123519.jpg)
+![image](https://github.com/kml0798/Pixel3ZramCustomize_MagiskModule/blob/main/ProjectImage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230319125619.jpg)
