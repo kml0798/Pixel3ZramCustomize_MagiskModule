@@ -18,7 +18,11 @@
 ![image](https://github.com/kml0798/Pixel3ZramCustomize_MagiskModule/blob/main/ProjectImage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230319123519.jpg)
 
 
-`默认大小为2147483648（2GB），因为感觉后台保活能力很差，所以改为4294967296（4GB）`
+`将文件复制出来，修改ramsize字段，默认大小为2147483648（2GB），因为感觉后台保活能力很差，所以改为4294967296（4GB）`
+
+`下载release中的magisk模块，将修改好的文件放入/system/vendor/etc下的相应位置替换，最后刷入magisk并重启`
 
 
 ![image](https://github.com/kml0798/Pixel3ZramCustomize_MagiskModule/blob/main/ProjectImage/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230319125619.jpg)
+
+`zram大小已经由2048M变成了4096M，从zram使用率也可以看出来，原本2G的zram显然是不够的，当然扩大zram会导致些微卡顿，但是后台保活能力会大幅提升`
